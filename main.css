@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-image: url("images/bg.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    padding-top: 69px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 576px;
+}
+.header__nav{
+display: flex;
+justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 79px ;
+list-style: none;
+}
+.header__link{
+
+    font-family: "Nosifer";
+font-size: 16px;
+font-weight: 800;
+line-height: 28.55px;
+text-align: center;
+color: #FAFF00;
+transition: 1s ease-in-out;
+}
+.header__link:hover{
+    color: #B60505;
+    transition: 1s ease-in-out;
+}
+.header__link:active{
+    color: #24ff02;
+
+}
+.btn1__text{
+    font-family: "Irish Grover";
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.03px;
+    text-align: center;
+}
+.btn1{
+    transition: 1s ease-in-out;
+padding: 31px 87px 30px 88px;
+    margin-top: 576px;
+    width: 692px;
+    margin: 0 auto;
+height: 119px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(90deg, #F5C22C 0%, #64AA58 28%, #FAFF00 58.5%, #D92E23 100%);
+border: 11px solid #050505;
+}
+.btn1:hover{
+    background: linear-gradient(90deg, #8e04ff 0%, #5900ff 28%, #06f33d 58.5%, #ddfa00 100%);
+border: 11px solid #ffffff;
+transition: 1s ease-in-out;
+}
+.btn1:active{
+    background: linear-gradient(90deg, #01d2fc 0%, #c32f06 28%, #ff0000 58.5%, #210170 100%);
+border: 11px solid #d0ff00;
+transition: 1s ease-in-out;
+}
+.title{
+    font-family: "Nosifer";
+font-size: 100px;
+font-weight: 800;
+line-height: 178.42px;
+text-align: center;
+color: #FAFF00;
+padding-bottom: 74px ;
+padding-top: 33px;
+
+}
